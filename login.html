@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
+
+    <title>Login Phantasm 25</title>
+    <link rel="stylesheet" href="./assets/styles/login.css">
+    <link rel="stylesheet" href="./assets/styles/button.css">
+
+    
+</head>
+<body>
+    <div class="header">Header</div>
+    <div class="page">
+        <div id="box" class="animated-button2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <div class="login" id="login" >
+                <div class="title" id="login-title">
+                    <p class="animated-button">Login For Participants</p>
+                </div> 
+                <div class="form">
+                    <form class="myform">
+                        <div class="eachform">
+                            <label for="username">
+                                <p>Enter Your Username:</p>
+                            </label>
+                            <input type="text" id="username" name="username">
+                        </div>
+                        <div class="eachform">
+                            <label for="pass">
+                                <p>Enter Password:</p>
+                            </label>
+                            <input type="password" id="pass" name="pass" >
+                        </div>
+                    </form>
+                </div>
+                
+                <form class="end">
+                    <button class="animated-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        LOGIN
+                    </button>
+                </form>
+            </div>
+            
+            <div class="switch" onclick="switchLogin()"  id="switch">
+                <p id="switch-title" >Login For Admins</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Footer
+    </div>
+
+    <script src="./assets/scripts/login.js"></script>
+</body>
+</html>
