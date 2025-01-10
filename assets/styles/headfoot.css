@@ -32,7 +32,7 @@
     text-decoration: none;
     margin: 0 clamp(.2rem,1vw,.9rem);
     font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-    transition: color,background-color 0.5s;
+    transition: color,background-color .75s;
     padding : 5px;
 }
 .header nav a:hover {
