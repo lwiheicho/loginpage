@@ -10,11 +10,14 @@ button {
   font-size: clamp(1.46rem,3.7vw,2rem);
   color: white;
   font-weight: 600;
+  transition: color,background-color 1s;
 }
 
 
 button:hover{
   cursor: pointer;
+  background-color: white;
+  color:black;
 }
 
 
