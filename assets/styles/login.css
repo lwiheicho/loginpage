@@ -49,6 +49,11 @@ body{
     justify-content: center;
     min-height: 84vh;
     min-height: 84dvh;
+    background-image: repeating-radial-gradient(
+      circle at 50% 50%,
+      transparent 0,
+      #1414148a 4px
+    )
 }
 
 #box{
@@ -59,6 +64,7 @@ body{
     backdrop-filter: blur(50px);
     max-width: 90vw;
     transition: all 1s ease-out;
+    
 }
 
 .login {
@@ -145,10 +151,10 @@ body{
 
 .title p{
     font-weight: 600;
-    font-size: clamp(1.65rem, 4.2vw, 2.4rem);
+    font-size: clamp(1.65rem, 4.2vw, 2.8rem);
 }
 #switch-title{
-    font-size: clamp(1.6rem, 4.2vw, 2.3rem);
+    font-size: clamp(1.6rem, 4.2vw, 2.7rem);
     font-weight: 500;
     writing-mode: vertical-lr;
     margin: 1rem;
@@ -157,7 +163,7 @@ body{
 .form p{
     margin: .9rem;
     font-weight: 500;
-    font-size: clamp(1.49rem,3.8vw,1.8rem);
+    font-size: clamp(1.49rem,3.8vw,2.0rem);
 }
 
 
@@ -192,7 +198,7 @@ input[type=text], input[type=password] {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: clamp(1.33rem,3.8vw,1.4rem);
+    font-size: clamp(1.33rem,3.8vw,1.75rem);
     color: black;
     text-align: center;
     width: 70%;
