@@ -14,10 +14,9 @@
 
 
 * {
-
     font-family: "JetBrains Mono", serif;
     font-optical-sizing: auto;
-    color: #eff1f5;
+    color: white;
     padding: 0px;
     margin: 0px;
 }
@@ -33,14 +32,6 @@ html {
 body{
     display: flex;
     flex-direction: column;
-}
-
-.header , .footer{
-    background:rgba(0,0,0,0.33);
-    height: 8vh;
-    height: 8dvh;
-    text-align: center;
-    backdrop-filter: blur(10px);
 }
 
 .page{
@@ -151,10 +142,10 @@ body{
 
 .title p{
     font-weight: 600;
-    font-size: clamp(1.65rem, 4.2vw, 2.8rem);
+    font-size: clamp(1.65rem, 4.2vw, 2.7rem);
 }
 #switch-title{
-    font-size: clamp(1.6rem, 4.2vw, 2.7rem);
+    font-size: clamp(1.6rem, 4.2vw, 2.65rem);
     font-weight: 500;
     writing-mode: vertical-lr;
     margin: 1rem;
@@ -205,11 +196,3 @@ input[type=text], input[type=password] {
     border-style: none;
     padding: 0px 15px;
 }
-
-
-
-
-
-
-
-

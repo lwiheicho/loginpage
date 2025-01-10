@@ -7,7 +7,7 @@ button {
   -webkit-transform: translate(0%, 0%);
         transform: translate(0%, 0%);
   overflow: hidden;
-  font-size: clamp(1.46rem,3.7vw,3rem);
+  font-size: clamp(1.46rem,3.7vw,2rem);
   color: white;
   font-weight: 600;
 }
