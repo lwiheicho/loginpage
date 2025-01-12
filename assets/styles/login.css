@@ -39,7 +39,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 84vh;
-    min-height: 84dvh;
+    min-height: 84lvh;
     background-image: repeating-radial-gradient(
       circle at 50% 50%,
       transparent 0,
