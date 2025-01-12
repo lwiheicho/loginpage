@@ -1,7 +1,7 @@
 .header , .footer{
     background:rgba(0, 0, 0, 0.25);
     min-height: 8vh;
-    min-height: 8dvh;
+    min-height: 8lvh;
     width: 100vw;
     text-align: center;
     backdrop-filter: blur(10px);
